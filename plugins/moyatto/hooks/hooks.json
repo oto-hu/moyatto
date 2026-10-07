@@ -1,0 +1,17 @@
+{
+  "description": "起動時に、期日が来た保留の問いを知らせる",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/ledger.py\" hook",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

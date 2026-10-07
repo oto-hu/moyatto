@@ -1,0 +1,15 @@
+{
+  "name": "moyatto",
+  "description": "もやもやを、決められる問いに変えて閉じる Claude Code プラグイン",
+  "owner": {
+    "name": "Standby Tech"
+  },
+  "plugins": [
+    {
+      "name": "moyatto",
+      "source": "./plugins/moyatto",
+      "description": "問いの形になっていない「もやもや」を、決められる問いに分けて閉じる。決めたことは台帳に残り、同じことで迷い直さない。",
+      "version": "0.1.0"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "moyatto",
+  "version": "0.1.0",
+  "description": "問いの形になっていない「もやもや」を、決められる問いに分けて閉じる。決めたことは台帳に残り、同じことで迷い直さない。",
+  "author": {
+    "name": "Standby Tech"
+  },
+  "license": "MIT",
+  "keywords": ["decision", "thinking", "journal", "japanese"]
+}

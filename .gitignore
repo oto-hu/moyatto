@@ -1,0 +1,7 @@
+.env*
+__pycache__/
+*.pyc
+.DS_Store
+# 開発中の台帳を誤ってコミットしない
+ledger.json
+.moyatto/
